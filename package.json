@@ -1,0 +1,22 @@
+{
+  "name": "Tcp-Server-Client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "server": "node ./Server/index.js",
+    "client": "node ./Client/index.js",
+    "server-dev": "nodemon ./Server/index.js",
+    "client-dev": "nodemon ./Client/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "net": "^1.0.2",
+    "nodemon": "^2.0.6"
+  }
+}
